@@ -1,0 +1,176 @@
+body{
+    background-color: rgb(32, 32, 32);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
+}
+.cursorP{
+    cursor: pointer;
+}
+#navbar nav {    
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+#navcompo1 i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+#suggestions{
+    padding: 0.5rem;
+    margin: 0.3rem;
+    position: static;
+    left: 10vw;
+}
+#suggestions h5 {
+    display: inline;
+    background-color : grey;
+    color: rgba(255, 255, 255, 0.945);
+    margin: .5rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+#suggestions h5:hover {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.945);
+    margin: .8rem;
+    background-color : rgb(65, 63, 63);
+    padding: 0.8rem;
+    border-radius: 4rem;
+
+}
+#searchbar{
+    display: flex;
+    gap: 1rem;
+}
+
+#searchbar button{
+    height: 2rem;
+    background-color: #202020;
+    transition: all .3s;
+    border: 0px;
+}
+#searchbar input{
+    color: white;
+    width: 30rem;
+    padding: .3rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(61, 61, 61);
+    transition: all .3s;
+}
+#searchbar input:focus{
+    font-size: 1.5rem;
+}
+i{
+    transition: all .3s;
+}
+i:hover{
+    font-size: 1.6rem;
+}
+#remainingicons{
+    display: flex;
+    gap: 1rem;
+}
+#remainingicons i {
+    color: white;
+    font-size: 1.2rem;
+    transition: ease .3s;
+}
+#remainingicons i:hover{
+    color: #f32d13;
+    
+}
+#side-bar{
+    position: absolute;
+    left: 0;
+    width: 15vw;
+}
+#main-body{
+    padding: 0rem;
+    color: white;
+    display:flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    width: 85vw;
+    position: absolute;
+    left: 15vw;
+}
+i.fa-microphone{
+    color: white;
+    border: 1px solid grey;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    transition: all .3s;
+}
+i.fa-microphone:hover{
+    background-color: black;
+}
+.videodetails{
+    display: flex;
+    gap: 1rem;
+}
+.cards{
+    width: 14rem;
+    margin: 1.5rem;
+    transition: all .3s;
+}
+.cards:hover{
+    transform: translateY(-20px);
+}
+
+.channellogo{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 10rem;
+}
+.channelinfo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;  
+}
+.videotitle{
+    margin: 0.5rem 0;
+}
+.videodetails h6{
+    margin: 0;
+}
+img.thumbnail{
+    width: 16rem;
+    height: 9rem;
+    transition: all .3s;
+}
+img.thumbnail:hover{
+    /* border: .5rem solid rgba(255, 255, 255, 0.363); */
+    border-radius: 1.5rem 1.5rem 0 0;
+    opacity: .5;
+}
+.sideCards{
+    margin: .5rem 0rem;
+    padding: .8rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    color: white;
+    transition: ease .3s;
+}
+.sideCards:hover{
+    background-color: #f32d13d2;
+    border-radius: 0 2rem 2rem 0;
+}
+.sideCards i{
+    font-size: 1.2rem;
+}
+.sideCards h5{
+    margin: 0;
+    font-size: .9rem;
+}
+hr{
+    border: 1px dotted gray;
+}
